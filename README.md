@@ -16,7 +16,7 @@ Web den derlediğim yazılımla ilgili konuların paylaştığım içerik payla�
 
 
 
-////
+
 
 <img width="1200" height="800"  src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek1r.png">
 <img width="1200" height="800" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek2r.png">
