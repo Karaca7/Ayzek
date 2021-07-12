@@ -24,7 +24,7 @@ Ayzek bunun dışında içerik paylaşım platformuydu. Yazarların  belirli ala
 
 
 
-<img width="1500"  height="800"  src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek1r.png">
+<img   src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek1r.png">
 <img width="1500"  height="800" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek2r.png">
 <img width="1500"  height="800" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek4.png">
 <img width="1500"  height="800" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek5r.png">
