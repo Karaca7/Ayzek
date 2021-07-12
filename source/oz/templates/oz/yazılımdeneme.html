@@ -1,0 +1,20 @@
+{% extends 'oz/base.html' %}
+{% block deneme %}
+
+
+{% for i in baslan %}
+
+<h1>
+    {{i.baslıkpost|safe }}</h1>
+{% load static %}
+
+<img src="{{ i.imageflied.url }}" width="500" height="250">
+
+
+<p>
+
+{{i.icerikpost|safe }}
+</p>
+ {% endfor %}
+
+{% endblock %}

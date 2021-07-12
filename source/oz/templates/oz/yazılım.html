@@ -1,0 +1,31 @@
+{% extends 'oz/base.html' %}
+{% block deneme %}
+
+
+<div class="row text-center">
+
+        {% for i in depos %}
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          {% load static %}
+<img src="{{ i.imageflied.url }}" width="250" height="100">
+
+          <div class="card-body">
+            <h4 class="card-title">{{i.baslıkpost}}</h4>
+
+
+          </div>
+          <div class="card-footer">
+            <a href="{% url 'yazılımdeneme' i.id %}" class="btn btn-primary">Öğren!</a>
+          </div>
+        </div>
+      </div>
+     {% endfor %}
+</div>
+
+
+
+
+
+{% endblock %}

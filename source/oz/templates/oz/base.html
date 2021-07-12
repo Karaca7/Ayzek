@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ayzek</title>
+
+  <!-- Bootstrap core CSS -->
+    {% load static %}
+  <link href="{% static 'oz/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+    {% load static %}
+  <link href="{% static 'oz/css/heroic-features.css' %}" rel="stylesheet">
+   <link href="{% static 'oz/css/resimler.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+    <div class="container">
+      <a class="navbar-brand" href="/"><h4 style=" font-family:San Francisco; ">Ayzek</h4></a><img height="40" width="40" src="{% static 'img/beyin.png' %}">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'ana' %} " style=" font-family:San Francisco;">Anasayfa
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'ev' %}" style=" font-family:San Francisco;">Giriş</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'kayıt' %}" style=" font-family:San Francisco;">Kayıt</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'iletisim' %}" style=" font-family:San Francisco;">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container" >
+      {% block deneme %}
+
+
+
+
+
+
+            {% endblock %}
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white"> &copy; Ayzek <br><a data-toggle="collapse" href="#collapse_ornek2"><img height="40" width="40" src="{% static 'img/instagram.png' %}"></a> <a  data-toggle="collapse" href="#collapse_ornek3"> <img height="40" width="40" src="{% static 'img/youtube.png' %}"></a> <a  data-toggle="collapse" href="#collapse_ornek4"><img height="40" width="40" src="{% static 'img/whatsapp.png' %}"></a></p>
+    <div class="row" >
+
+      <div class="row collapse" id="collapse_ornek2"> <h1>deneme</h1></div>
+      <div class="row collapse" id="collapse_ornek3"> <h1>deneme2</h1></div>
+      <div class="row collapse" id="collapse_ornek4"> <h1>deneme3</h1></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  {% load static %}
+  <script src="{% static 'oz/vendor/jquery/jquery.min.js' %}"></script>
+  {% load static %}
+  <script src="{% static 'oz/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script src="{% static 'ckeditor/js/tinymce/tinymce.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'ckeditor/js/tinymce/custom.js' %}" ></script>
+</body>
+
+</html>

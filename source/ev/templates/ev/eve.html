@@ -1,0 +1,91 @@
+
+
+
+{% extends 'oz/base.html' %}
+{% block deneme %}
+{% load crispy_forms_tags %}
+
+
+<div class="card mb-4">
+    <h2 class="card-title">Burası Ev</h2>
+
+Hoşgeldin,
+{{ request.user.get_full_name }}
+
+<p><a href="{% url 'cıkıs' %}">Çıkış</a>
+</p>
+
+
+
+        </div>
+
+<div class="card mb-4 bg-light" >
+
+    <h2 class="card-title">Oluşturma Bölümü</h2>
+          <div class="card-body">
+
+            <p class="card-text"> <form action="." method="post"  class="denem">{% csrf_token %}
+
+    {{form | crispy}}
+                <button  type="submit" class="btn btn-success" >  Gönder</button>
+
+
+        </form>
+</p>
+
+          </div>
+          <div class="card-footer text-muted">
+           <div class="row">
+<div class="col-md"></div>
+    <div class="col">
+ <a class="btn btn-danger" data-toggle="collapse" href="#collapse_ornek"> Notları Gör  </a>
+</div>
+        </div>
+
+
+
+</div>
+</div>
+
+<div class="row  collapse" id="collapse_ornek">
+
+
+
+
+<div class="card mb-4 col-lg-3 col-md-6 mb-4">
+    <h2 class="card-title">Çalışan depo</h2>
+          <div class="card-body">
+
+
+      <div> {% for k in bbb %}<a  class="btn btn-primary" href="{% url 'silici' k.id %}" >{{k.ısım}}</a><br><br>{% endfor %}</div>
+
+          </div>
+
+        </div>
+
+
+
+
+<div class="card mb-4 col-lg-3 col-md-6 mb-4">
+    <h2 class="card-title">Biten Depo</h2>
+
+
+
+          <div class="card-body">
+
+              <div> {% for i in biten_depo %}<a  class="btn btn-success"  href="{% url 'silici2' i.id %}">{{i.ısım}} </a><br><br>{% endfor %}</div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+</div>
+
+
+{% endblock %}
+
+

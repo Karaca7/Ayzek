@@ -1,0 +1,155 @@
+
+{% extends 'oz/base.html' %}
+
+
+{% block deneme %}
+    <!-- Jumbotron Header -->
+  {% load static %}
+<div class="col-12 d-none d-lg-block" style="background-color:green" >Reklam alanı</div>
+    <header class="jumbotron my-5" style="background-image: url({% static 'img/sp.jpg' %}); background-repeat: repeat-y;background-size: cover;" >
+    {% for i in depos %}
+      <h4 class="display-2" style="color:white; font-style: italic;font-size: 8vw; font-family:San Francisco; " >{{i.baslıkpost}}</h4>
+<br><br>
+        <p>{{i.içerikpost|safe}}</p>
+
+      <p class="lead" style="color:white  ;font-style: italic; "> <h4> </h4> <a class="btn btn-danger" href="{% url 'ev' %}">Hatırlatıcı</a></p>
+
+<br><br><br><br>
+         <p class="lead" style="color:white  ;font-style: italic; " >Acı çektirmeyen bir ders anlamsızdır.Çünkü ; bir şey feda etmeyen kişi bir şey elede edemez.</p>
+
+        <p class="lead" style="color:white  ;font-style: italic; ">
+
+          Öncelikle bir konuda  anlaşalım sana öğretecek hiç bir şeyim yok.Çünkü öğretecek yaşta değilim, ama öğrendiklerimi aktarabileceğimi düşünüyorum.
+
+          <br><br>Birde  mutlaka başlangıç bölümünü okumalısın.<br><br>
+
+
+            <br>Bunun dışında iyi eğelenceler
+
+{% endfor %}
+      </p>
+<div class="row">
+<div class="col-md"></div>
+    <div class="col">
+ <a class="btn btn-danger" data-toggle="collapse" href="#collapse_ornek"> Dersler</a>
+</div>
+
+
+</div>
+
+
+    </header>
+
+    <!-- Page Features -->
+
+<div class="row collapse" id="collapse_ornek">
+
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+{% load static %}
+<img src="{% static 'img/kutubas.png' %}" width="150" height="150">
+
+          <div class="card-body">
+            <h4 class="card-title">Başlangıç</h4>
+
+
+          </div>
+          <div class="card-footer">
+            <a href="{% url 'baslangıc' %}" class="btn btn-primary">Öğren!</a>
+          </div>
+        </div>
+      </div>
+
+
+
+        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+
+<img src="{% static 'img/kutumant.png' %}" width="150" height="150">
+
+          <div class="card-body">
+            <h4 class="card-title">Mantık</h4>
+
+
+          </div>
+          <div class="card-footer">
+            <a href="{% url 'mantıks' %}" class="btn btn-primary">Öğren!</a>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+
+<img src="{% static 'img/kutumat.png' %}" width="150" height="150">
+
+          <div class="card-body">
+
+            <h4 class="card-title">Matematik</h4>
+
+
+          </div>
+          <div class="card-footer">
+            <a href="{% url 'matematiks' %}" class="btn btn-primary">Öğren!</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+
+<img src="{% static 'img/kutufels.png' %}" width="150" height="150">
+
+          <div class="card-body">
+            <h4 class="card-title">Felsefe</h4>
+
+
+          </div>
+          <div class="card-footer">
+            <a href="{% url 'felsefes' %}" class="btn btn-primary">Öğren!</a>
+          </div>
+        </div>
+      </div>
+
+
+
+        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+
+<img src="{% static 'img/kutuyazıl.png' %}" width="150" height="150">
+
+          <div class="card-body">
+            <h4 class="card-title">Yazılım Temelleri</h4>
+
+
+          </div>
+          <div class="card-footer">
+            <a href="{% url 'yazılıms' %}" class="btn btn-primary">Öğren!</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    <!-- /.row -->
+
+{% endblock %}
