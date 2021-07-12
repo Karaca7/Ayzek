@@ -14,16 +14,8 @@ Web den derlediğim yazılımla ilgili konuların paylaştığım içerik payla�
 
 
 <table>
-  <tr>
-    <td> <img width="600" height="500" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek1r.png"></td>
-
+  <tr><td><img width="600" height="500" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek1r.png"></td>
     <td><img width="600" height="500" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek2r.png"></td>
-   </tr> 
-   <tr>
-      <td><img width="600" height="500" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek4.png"></td>
-
-     <td><img src="./Scshot/trip_end.png" align="right" alt="4" width = 360px height = 640px></td>
-  </td>
   </tr>
 </table>
 
