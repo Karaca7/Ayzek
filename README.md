@@ -4,9 +4,15 @@
 
 Django web freamworkü ile gerçekleştirdiğim projem.
 
-Web den derlediğim yazılımla ilgili konuların paylaştığım içerik paylaşım platoformu ve başka konulara erişebileceklerdi.
 
-**Asıl önemli olay ise hatırlatma uygulamasıydı.Bazı araştırılmış teknikleri derleyerek oluşturduğum yöntem ile  uygulama faal olarak 1.5 sene çalıştırdım sonra fişini çektim...**
+## Ayzek ne yapardı ?
+
+Ayzek özünde hatırlatma uygulamasıdır. Ölçme ve yerleştirme sınavlarınan hazırlanan bireylerin bilgileri kalıcı hafızaya taşımasına yaran bir uyuglamaydı.
+Bazı  araştırılmış hafıza  tekniklerini derleyerek oluşturuldu. 
+
+Örneğin ;Yeni bir dilin kelimlerini öğrenmede kullana bildiniz. Yada Matematiksel bir denklemin değişkenlerinin anlamlarını. Yada bir sınav sorusunu...
+Ayzek bunun dışında içerik paylaşım platformuydu. Yazarların  belirli alanlar(Mantık, Matematik, Yazılım,Felsefe, vb.) altında ufkumuzu açacak paylaşımlar yaparlardı. 
+
 
 **Ayzek benim ilk ciddi projemdi lütfen kodları okurken iğrenerek bakmayın ... :D**
 
