@@ -2,7 +2,7 @@
 2018 yılında geliştirdiğim web uygulamam not: mobil versiyonunu web view ile gerçekleştirdim.
 
 
-Django web freamwork ü ile gerçekleştirdiğim projem.
+Django web freamworkü ile gerçekleştirdiğim projem.
 
 Web den derlediğim yazılımla ilgili konuların paylaştığım içerik paylaşım platoformu ve başka konulara erişebileceklerdi.
 
