@@ -15,7 +15,7 @@ Web den derlediğim yazılımla ilgili konuların paylaştığım içerik payla�
 
 <table>
   <tr><td><img width="500" height="300" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek1r.png"></td>
-    <td><img width="500" height="500" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek2r.png"></td>
+    <td><img width="500" height="300" src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek2r.png"></td>
   </tr>
 </table>
 
