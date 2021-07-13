@@ -2,7 +2,7 @@
 2017 yılında geliştirdiğim web uygulamam not: mobil versiyonunu web view ile gerçekleştirdim.
 
 
-Django web freamworkü ile gerçekleştirdiğim projem.
+Django web freamworkü ile gerçekleştirdiğim projem.  Mobil uygulamasını webview ile gerçekleştirdim.
 
 
 ## Ayzek ne yapardı ?
