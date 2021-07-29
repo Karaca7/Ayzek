@@ -12,6 +12,7 @@ Bazı  araştırılmış hafıza  tekniklerini derleyerek oluşturuldu.
 
 Örneğin ;Yeni bir dilin kelimlerini öğrenmede kullana bildiniz. Yada Matematiksel bir denklemin değişkenlerinin anlamlarını. Yada bir sınav sorusunu...
 Ayzek bunun dışında içerik paylaşım platformuydu. Yazarların  belirli alanlar(Mantık, Matematik, Yazılım,Felsefe, vb.) altında ufkumuzu açacak paylaşımlar yaparlardı. 
+Not:Hatırlatma classı kaldırılmıştır.
 
 
 **Ayzek benim ilk ciddi projemdi lütfen kodları okurken iğrenerek bakmayın ... :D**
