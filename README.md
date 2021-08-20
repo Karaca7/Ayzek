@@ -23,8 +23,6 @@ Not:Hatırlatma classı kaldırılmıştır.
 
 
 
-
-
 <img   src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek1r.png">
 <img   src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek2r.png">
 <img   src="https://github.com/Karaca12/Ayzek/blob/main/images/ayzek4.png">
